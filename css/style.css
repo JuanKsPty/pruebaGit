@@ -1,8 +1,7 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(84, 58, 58);
-    display: flex;
-    flex-direction: column;
+    
 }
 div {
     color:rgb(216, 186, 159);
@@ -17,8 +16,11 @@ div {
 }
 #container { 
    font-size: large;
+   
     
 }
 #Box{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
