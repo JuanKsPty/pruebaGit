@@ -1,4 +1,16 @@
 body {
-    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(84, 58, 58);
+}
+div {
+    color:rgb(216, 186, 159);
+    display: flex;
+    flex-direction: column;
+}
+#container { 
+   font-size: large;
+    
+}
+#Box{
+    align-items: center;
 }
