@@ -1,23 +1,35 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(84, 58, 58);
-    
+    background-color: rgb(34, 25, 25);
+    display: flex;
+    justify-content: center;
 }
 div {
     color:rgb(216, 186, 159);
     
 }
 #cabecera{
-    font-size: medium;
+    display: flex;
+    height: 30px;
+    font-size: 20px;
+    align-items: center;
     background-color: rgb(195, 7, 220);
     color: white;
     padding: 10px;
-    margin-top: 10px;
+    
+}
+#cabecera img{
+width: auto;
+height: 40px;
+padding: 10px;
 }
 #container { 
-   font-size: large;
-   
-    
+    display:flex ;
+    font-size: large;
+    width: 80%;
+    flex-direction: column;
+    border:1px solid #ddd;
+    background-color: rgb(84, 58, 58);
 }
 #Box{
     display: flex;
