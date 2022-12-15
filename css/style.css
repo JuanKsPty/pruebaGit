@@ -31,6 +31,14 @@ padding: 10px;
     border:1px solid #ddd;
     background-color: rgb(84, 58, 58);
 }
+#footer{
+    font-size: medium;
+    background-color: rgb(76, 14, 85);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
 #Box{
     display: flex;
     flex-direction: column;
